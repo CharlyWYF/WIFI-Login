@@ -6,6 +6,7 @@ import json
 import customtkinter as ctk
 from threading import Thread
 from plyer import notification
+import default_psw
 
 # 配置主题
 ctk.set_appearance_mode("dark")
@@ -22,8 +23,8 @@ DANGER = "#854371"
 DANGER_HOVER = "#552d46"
 ENTRY_BG = "#11141b"
 
-DEFAULT_USER = "220408422"
-DEFAULT_PSW = "xxx"
+DEFAULT_USER = default_psw.DEFAULT_USER
+DEFAULT_PSW = default_psw.DEFAULT_PSW
 
 
 def show_message(root, title, message, color="white"):
