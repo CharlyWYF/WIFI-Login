@@ -1,6 +1,6 @@
 # SUT Wifi 登录工具
 
-一个简单易用的校园网认证登录工具，专为沈阳工业大学(SUT)校园网设计，提供便捷的网络认证体验。
+一个简单易用的校园网认证登录工具，提供便捷的网络认证体验。
 
 ## 📋 功能特性
 
@@ -30,7 +30,7 @@
    ```
 3. 运行主脚本：
    ```bash
-   python WebLogin13.py
+   python WebLogin.py
    ```
 
 
@@ -56,7 +56,7 @@ DEFAULT_PSW = "你的密码"
 
 2. 执行打包命令：
    ```bash
-   pyinstaller --onefile --windowed --icon=app.ico --name="SUT-WIFI" --hidden-import plyer.platforms.win.notification WebLogin13.py
+   pyinstaller --onefile --windowed --icon=app.ico --name="SUT-WIFI" --hidden-import plyer.platforms.win.notification WebLogin.py
    ```
 
    命令说明：
@@ -88,26 +88,3 @@ weblogin/
 - customtkinter
 - plyer
 
-## ⚠️ 注意事项
-
-1. 本工具仅适用于沈阳工业大学校园网
-2. 登录接口地址：`http://10.91.200.211/ac_portal/login.php`
-3. 登出接口地址：`http://v.sut.edu.cn/homepage/logout`
-4. 请确保网络连接正常后使用
-5. 若登录失败，请检查用户名和密码是否正确
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request 来改进这个项目！
-
-## 📄 许可证
-
-本项目采用 MIT 许可证。
-
-## 📞 联系方式
-
-如果您有任何问题或建议，请随时联系项目维护者。
-
----
-
-**祝使用愉快！** 🎉
