@@ -85,7 +85,7 @@ def main():
     app = ctk.CTk()
     app.title("SUT Wifi 登录")
     app.geometry("460x550")
-    app.iconbitmap("app.ico")
+    # app.iconbitmap("app.ico")
     app.resizable(False, False)
     app.configure(fg_color=BG_COLOR)
 
@@ -190,7 +190,7 @@ def main():
         text_color="#ffffff",
         font=button_font,
     )
-    login_btn.pack(fill="x", pady=(0, 14))
+    login_btn.pack(fill="x", pady=(10, 14))
 
     logout_btn = ctk.CTkButton(
         card_inner,
