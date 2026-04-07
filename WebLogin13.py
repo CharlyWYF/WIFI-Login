@@ -28,21 +28,6 @@ DEFAULT_PSW = default_psw.DEFAULT_PSW
 
 
 def show_message(root, title, message, color="white"):
-    # """显示弹出提示框"""
-    # popup = ctk.CTkToplevel(root)
-    # popup.title(title)
-    # popup.geometry("300x120")
-    # popup.resizable(False, False)
-
-    # # 居中显示
-    # popup.transient(root)
-    # popup.grab_set()
-
-    # msg_label = ctk.CTkLabel(popup, text=message, font=("Microsoft YaHei", 20), text_color=color, wraplength=250)
-    # msg_label.pack(expand=True, pady=20)
-
-    # ok_btn = ctk.CTkButton(popup, text="确定", command=popup.destroy, width=100)
-    # ok_btn.pack(pady=10)
 
     notification.notify(
         title=title,
